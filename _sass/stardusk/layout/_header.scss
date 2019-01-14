@@ -1,0 +1,120 @@
+//  @ [header] > [*]
+//  *_ #Responsive TBA
+//  @ ===
+//  >>> top right decoration, #RWD Fix TBA
+body::before {
+//  content: "";
+  display: block;
+  position: absolute;
+  top: -100px;
+  right: -220px;
+  border: 20px solid $primary-dark;
+  height: 500px;
+  width: 500px;
+  transform: rotate(49deg);
+}
+
+//  >>> basic formatting
+#logo 
+//,#side-nav 
+{ background: white; }
+
+//  >>> sticky behaviour
+//#logo { position: sticky; top: 2rem; }
+#side-nav { position: sticky; top: 2rem; }
+
+//  >>> logo formatting
+#logo a { display: block; }
+#logo img {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+#logo { 
+  padding: 10px;
+  margin: 10px 10px 30px 10px;
+}
+
+//  >>> sidebar formatting
+#side-nav {
+  font-family: 'Teko';
+  font-size: 2rem;
+//  border-bottom: 8px solid black;
+//  border-top: 8px solid black;
+
+// *) see sidebar nav reformat
+//  padding: 10px;
+//  margin: 0 10px;
+}
+
+//  >>> sidebar nav formatting
+#side-nav ul { list-style: none; padding-left: 0; }
+#side-nav a, #side-nav a:hover { text-decoration: none; }
+#side-nav li:not(:last-child) { margin-bottom: 10px; }
+
+//  >>> sidebar nav reformat
+#side-nav ul { padding: 10px; margin: 10px 10px 0; background: white;}
+
+
+#side-nav a { 
+  color: $primary;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 1rem;
+  background: $counterprimary-dark;
+}
+#side-nav li.selected a {
+  background: $primary-dark;
+  color: white;
+  pointer-events: none;
+}
+#side-nav a:hover {
+  background: $secondary-dark;
+  color: white;
+}
+#side-nav a:hover::before, #side-nav li.selected a::before {
+  content: "_";
+}
+
+//  >>> sidebar info formatting
+#side-nav .info { font-size: 1.2rem; font-weight: 300; }
+#side-nav .info > span {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+//  >>> sidebar info span formatting
+#side-nav .info > span span { 
+  color: white;
+  font-weight: bold;
+  padding: 0.1rem 0.5rem;
+  background: $primary-light;
+  display: inline-block;
+}
+#side-nav .info > span span:last-child { 
+  background: $secondary;
+  margin-left: 5px;
+  width: auto;
+  display: flex;
+  //flex-grow: 1;
+}
+#side-nav .info > span:last-child span:first-child { background: $primary; }
+#side-nav .info > span:last-child span:last-child { background: $secondary-dark; }
+
+//  >>> sidebar info reformat
+#side-nav .info > span:not(:last-child) { margin: 0 10px; padding: 10px; }
+#side-nav .info > span {
+  display: inline-block;
+  width: auto;
+  margin: 0 10px 10px;
+  padding: 0 10px 10px;
+  background: white;
+}
+#side-nav .info > span span, #side-nav .info > span span:last-child 
+{ display: inline; }

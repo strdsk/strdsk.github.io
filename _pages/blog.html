@@ -1,0 +1,22 @@
+---
+  permalink: '/blog/'
+  title: 'Index of /blog/'
+  customClass: 'custom blog'
+---
+{% assign start = true %}
+{% assign temp_date = "" %}
+
+{% for item in site.posts %}
+  {% assign data_date = item.date | date: "%B, %Y" %}
+  {% if temp_date != data_date %}
+    {% if start != true %}</ul>{% endif %}
+    {% if start == true %}{% assign start = false %}{% endif %}
+    <h2>{{data_date}}</h2>
+    <ul>
+    {% assign temp_date = data_date %}
+  {% endif %}
+  <li>
+    <a href="{{ item.url | remove: '.html'}}">{{ item.title }}</a>
+    <!-- <span class="date">{{ item.date | date: "%d/%m"}}</span> -->
+  </li>
+{% endfor %}

@@ -1,0 +1,37 @@
+.custom.home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.custom.home > div {
+  display: flex;
+  align-items: center;
+}
+.custom.home ul { list-style: none; }
+.custom.home li:not(:last-child) { margin-right: 10px; }
+.custom.home .nav li {
+  width: 150px;
+  display: inline-block;
+}
+.custom.home span { display: inline-block; width: 100%; text-align: center; }
+.custom.home span { padding: 5px; font-family: 'Teko'; font-size: 1.5rem; }
+.custom.home .nav span:first-child { 
+  padding: 20px; 
+  font-size: 5rem;
+  background: $counterprimary - #0a0a0a;
+  color: $primary;
+}
+.custom.home .nav span { 
+  background: $secondary; 
+  color: white; 
+  font-weight: 500;
+}
+
+.custom.home .nav a:hover span:first-child { 
+  padding: 20px; 
+  font-size: 5rem;
+  background: $primary;
+  color: white;
+}
+.custom.home .nav a:hover span { background: $secondary-dark; }

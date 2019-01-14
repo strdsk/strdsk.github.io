@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-14T17:32:41+08:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Waterfox, alternatif Firefox dengan support Legacy XUL</title><link href="http://localhost:4000/blog/posts/2016/05/17/waterfox-alternatif-firefox.html" rel="alternate" type="text/html" title="Waterfox, alternatif Firefox dengan support Legacy XUL" /><published>2016-05-17T00:00:00+08:00</published><updated>2016-05-17T00:00:00+08:00</updated><id>http://localhost:4000/blog/posts/2016/05/17/waterfox-alternatif-firefox</id><content type="html" xml:base="http://localhost:4000/blog/posts/2016/05/17/waterfox-alternatif-firefox.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
+
+&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
+hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
+diameter). It has a fibrous, dull greenish-brown skin and bright green or
+golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
+texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name></name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">First commit, “Hello world”</title><link href="http://localhost:4000/blog/posts/2016/05/17/first-commit-hello-world.html" rel="alternate" type="text/html" title="First commit, &quot;Hello world&quot;" /><published>2016-05-17T00:00:00+08:00</published><updated>2016-05-17T00:00:00+08:00</updated><id>http://localhost:4000/blog/posts/2016/05/17/first-commit-hello-world</id><content type="html" xml:base="http://localhost:4000/blog/posts/2016/05/17/first-commit-hello-world.html">&lt;h2 id=&quot;hello-world&quot;&gt;Hello, World!&lt;/h2&gt;
+&lt;p&gt;Proyek ini sebagai media pembelajaran penulis dalam memahami konsep &lt;em&gt;Distributed Version Control System&lt;/em&gt; atau &lt;em&gt;DVCS&lt;/em&gt;, yang merupakan sistem kerja dari &lt;em&gt;Git&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Software Git yang digunakan adalah &lt;strong&gt;Git for Windows&lt;/strong&gt; dengan repository sentral &lt;strong&gt;Github&lt;/strong&gt;. Adapun proyek web ini dibuat dengan &lt;strong&gt;Jekyll&lt;/strong&gt; dan &lt;strong&gt;Ruby&lt;/strong&gt;. Penulis sengaja memilih Jekyll karena :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;di-support oleh &lt;strong&gt;Github Pages&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;sebagai bahan pembelajaran&lt;/li&gt;
+  &lt;li&gt;kebebasan penuh dalam mengatur konten&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;gratis&lt;/em&gt;, hosting di Github Pages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;manfaat&quot;&gt;Manfaat&lt;/h2&gt;
+&lt;p&gt;Selain memahami basis Git, penulis juga mendapatkan beberapa manfaat selama mengerjakan proyek ini seperti :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;mengetahui bahasa &lt;strong&gt;Markdown&lt;/strong&gt; dan bisa menggunakannya&lt;/li&gt;
+  &lt;li&gt;melatih dalam merancang (&lt;em&gt;planning&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;membuat back-end website dari awal atau zero (&lt;em&gt;from scratch&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Layouting&lt;/em&gt; &amp;amp; &lt;em&gt;Designing&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;menambah wawasan JS, CSS &amp;amp; HTML&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;SASS-ing&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;dll.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software-yang-digunakan&quot;&gt;Software yang digunakan&lt;/h2&gt;
+&lt;p&gt;Beberapa software yang digunakan dalam pengerjaan proyek ini :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Illustrator&lt;/em&gt;&lt;/strong&gt;, desain awal/perancangan&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Visual Code&lt;/em&gt;&lt;/strong&gt;, workspace pemrograman&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Windows 7&lt;/em&gt;&lt;/strong&gt;, OS yang digunakan (haha..)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Waterfox&lt;/em&gt;&lt;/strong&gt;, Web browser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;checklist-proyek&quot;&gt;Checklist proyek&lt;/h2&gt;
+&lt;p&gt;Fitur yang sudah ada maupun yang akan ditambahkan/diperbaiki dari proyek ini :&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Archive page&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Page system&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Dynamic navigation&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Post category&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Post tag&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Minimum JS reliant&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Bootstrap (cuma pakai gridnya…)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Responsive Web Design&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Accesibility &amp;amp; Style Consistency&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Tidy code&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Pagination (50-50, pakai tidak…)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Hello, World! Proyek ini sebagai media pembelajaran penulis dalam memahami konsep Distributed Version Control System atau DVCS, yang merupakan sistem kerja dari Git.</summary></entry></feed>

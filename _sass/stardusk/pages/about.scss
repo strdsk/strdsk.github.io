@@ -1,0 +1,38 @@
+.custom.about ul { padding-left: 10px; }
+.custom.about ul li::before { display: none; }
+.custom.about ul li span:first-child::before { content: "_"; }
+.custom.about ul li span {
+  color: white;
+  //font-weight: bold;
+  padding: 0.1rem 0.5rem;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.custom.about ul li {
+  margin-bottom: 7px;
+}
+.custom.about ul li span:first-child { 
+  text-transform: lowercase; 
+  //font-weight: bold;
+}
+.custom.about ul li span:last-child { 
+  font-family: 'Noto Sans Mono';
+  margin-left: 5px;
+  color: $primary;
+  padding: 0.1rem 1rem;
+}
+.custom.about ul li:first-child span:first-child {background: $primary-light;}
+.custom.about ul li:first-child span:last-child {background: $counterprimary;}
+.custom.about ul li:nth-child(3) span:first-child {
+  background: $secondary-dark;
+}
+.custom.about ul li:nth-child(3) span:last-child {
+  background: $secondary;
+  color: white;
+}
+.custom.about ul li:nth-child(2) span:first-child {
+  background: $primary;
+  text-transform: uppercase;
+}
+.custom.about ul li:nth-child(2) span:last-child {background: $counterprimary;}
+

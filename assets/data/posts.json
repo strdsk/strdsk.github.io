@@ -1,0 +1,8 @@
+---
+---
+"postArray": [
+{%- for item in site.posts %}
+  "{{ item.url }}"
+  {%- if item.previous -%},{% endif -%}
+{%- endfor %}
+]

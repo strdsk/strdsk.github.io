@@ -1,0 +1,52 @@
+// # footer styling
+// ---
+//    @ layouting
+footer { margin-top: 0; padding: 2rem 0; }
+footer {
+  letter-spacing: 0.05rem;
+  font-family: 'Teko';
+}
+
+footer .overflow-box {
+  position: absolute;
+  bottom: 0;
+  left: -50vw;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+footer .overflow-box::before {
+//  content: "";
+  display: block;
+  position: absolute;
+  bottom: -70%;
+  right: 30%;
+  border: 20px solid $primary-dark;
+  height: 500px;
+  width: 500px;
+  transform: rotate(40deg);
+  z-index: -1;
+}
+
+footer .desc {
+  background: $counterprimary - #0a0a0a;
+  padding: 5px 10px;
+  font-size: 1.4rem !important;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}
+footer .desc:hover { background: $primary; color: white; }
+
+footer .social { float: right; }
+footer .social a { 
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  text-decoration: none; 
+  background: $primary-dark; 
+  color: white;
+  display: inline-flex; 
+}
+footer .social a:hover {
+  background: $secondary;
+}

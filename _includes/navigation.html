@@ -1,0 +1,18 @@
+{%- for item in site.data.navigation -%}
+  {%- assign temporary = {item.url | append: "index.html"} -%}
+  {% if page.url == item.url or page.url == temporary %}
+    {%- assign matching_url = item.url -%}
+    {%- assign matching_name = item.name -%}
+  {% endif -%}
+{% endfor %}
+<ul>
+{%- unless matching_url contains "/" %}
+  <li class="selected"><a>{{page.collection}}</a></li>
+{%- endunless -%}
+
+{%- for item in site.data.navigation %}
+  {% unless matching_name == 'home' and {item.name == 'archive' or item.name == 'repo'} %}
+  <li {%- if item.url == matching_url %} class="selected" {% endif %}><a href="{{item.url}}">{{item.name}}</a></li>
+  {% endunless %}
+{%- endfor %}
+</ul>

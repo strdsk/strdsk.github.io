@@ -1,0 +1,117 @@
+// # content styling
+// ---
+//    @ layout
+main .wrapper {
+  padding-top: 1rem;
+}
+
+//    @ article
+article {
+  font-size: 1.3rem;
+  padding-right: 3rem;
+}
+
+section.header h1 {
+  font-family: 'Teko';
+  // padding-left: 3rem;
+  // border-left: 1rem solid black;
+  padding-right: 2rem;
+  margin: 0;
+  font-size: 3.2rem;
+}
+
+section.header {
+  margin-bottom: 3rem;
+  padding: 0 10px;
+}
+
+section.content p, section.content h2,
+section.content ul
+{ margin-left: 1rem; padding: 10px; background: rgba(255,255,255,0.7); }
+section.content p { margin-bottom: 0.5rem; }
+section.content ol { background: white; padding-top: 10px;padding-bottom: 10px }
+
+section.content h2 {
+  font-family: 'Teko';
+  padding-left: 2rem;
+  font-size: 2.5rem;
+  margin-left: 10px;
+  border-left: 3px solid $primary;
+  background: $counterprimary;
+}
+section.content h2:not(:first-child) {
+  margin-top: 5rem;
+}
+
+section.content ul { padding-left: 3rem; list-style: none; }
+section.content ul li::before {
+  content: "\f0c8";
+  font-family: "Font Awesome 5 Free";
+  margin-right: 2rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+section.content .task-list li::before {display: none;}
+section.content .task-list input,
+section.content .task-list input:checked
+{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+section.content .task-list input::after {
+  content: "\f0c8";
+  font-family: "Font Awesome 5 Free";
+  margin-right: 2rem;
+}
+section.content .task-list input:checked::after { 
+  content: "\f14a"; 
+  font-weight: bold; 
+}
+//    @ tag
+section.header .tags span {
+  background: black;
+  padding: 0.1rem 0.5rem;
+}
+section.header .tags span:first-child { background: $secondary-dark; }
+section.header .tags span a {
+  color: white;
+}
+
+section.header .tags span a { text-decoration: none; }
+section.header .tags span:hover {
+  background: $secondary;
+}
+section.header .tags span:hover a { color: black; }
+
+section.content { letter-spacing: 0.01rem; }
+
+aside.nav {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+aside.nav span span { padding: 5px 10px; }
+
+aside.nav span span:last-child {
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  padding-left: 1rem;
+}
+aside.nav span span:first-child {
+  background: $counterprimary;
+  color: $primary-dark;
+  border-left: 3px solid $primary-dark;
+  font-family: 'Teko';
+  font-weight: bold;
+}
+
+aside.nav a {
+  padding: 5px 10px;
+  background: $primary;
+  box-decoration-break: clone;
+  color: white;
+  text-decoration: none;
+}
+aside.nav a:hover { background: $secondary-dark; }

@@ -1,0 +1,29 @@
+.custom.blog h2 {
+  font-size: 1.7rem;
+  display: inline-block;
+  padding: 10px;
+  background: $secondary;
+  color: white;
+}
+.custom.blog ul { list-style: square; padding: 0; margin-bottom: 2rem;}
+.custom.blog ul li::before { content: unset; }
+.custom.blog li { display: flex; }
+.custom.blog li:not(:last-child) { margin-bottom: 5px; }
+.custom.blog li span {
+  font-size: 1.2rem;
+  padding: 5px;
+  font-weight: bold;
+  background: $counterprimary-dark;
+  color: black;
+}
+.custom.blog li a {
+  font-size: 1.6rem;
+  margin-right: 5px;
+  margin-left: 1rem;
+//  border-left: 3px solid $primary; // inconsistent with style
+  color: white;
+  background: $primary-light;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.custom.blog li a:hover { background: $secondary-dark; color: white; }

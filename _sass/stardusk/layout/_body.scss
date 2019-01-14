@@ -1,0 +1,26 @@
+//  @ [body] > [main,header,footer]
+//  *_ #RWD TBA
+//  @ ===
+
+//  >>> basic layouting
+body { 
+  padding: 4rem 4rem 0; 
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+//  >>> swapping [body] children's order
+main { order: 1; }
+header { order: 2; }
+footer { order: 3; }
+
+//  >>> space setter
+//header { padding: 0 4rem; }
+main { padding-right: 5rem; }
+
+#wrapper { flex-grow: 1; }
+//  @ ===

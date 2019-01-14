@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.html": "jekyll"
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+}

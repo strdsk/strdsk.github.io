@@ -1,0 +1,47 @@
+---
+  layout: default
+---
+<section class="wrapper {{page.customClass}}">
+  <article>
+    <section class="header">
+      {%- unless page.titleOnly -%}
+      <span>{{page.date | date: "%A, %d %B %Y"}}</span>
+      {%- endunless -%}
+      <h1>
+      {%- unless page.headingTitle -%}
+        {{page.title}}
+      {%- endunless -%}
+      {%- if page.headingTitle -%}
+        {{page.headingTitle}}
+      {%- endif -%}
+      </h1>
+      <span class="tags">
+        <!-- put tag here -->
+      </span>
+    </section>
+
+    <section class="content">
+    {{content}}
+    </section>
+    
+    {%- if page.collection == "posts" -%}
+    <aside class="nav row">
+      {%- if page.previous -%}
+      <span class="col-6">
+        <span>_previous post</span>
+        <span>
+          <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+        </span>
+      </span>
+      {%- endif -%}
+      {%- if page.next -%}
+      <span class="col-6">
+        <span>_next post</span>
+        <span>
+          <a href="{{page.next.url}}">{{page.next.title}}</a>
+        </span>
+      </span>
+      {%- endif -%}
+    </aside>
+    {% endif %}
+</section>
