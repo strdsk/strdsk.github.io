@@ -29,6 +29,7 @@
 .custom.about ul li:nth-child(3) span:last-child {
   background: $secondary;
   color: white;
+  padding: 0;
 }
 .custom.about ul li:nth-child(2) span:first-child {
   background: $primary;
@@ -42,5 +43,7 @@
 .custom.about ul li:nth-child(3) span:last-child a {
   text-decoration: none;
   color: white;
+  padding: 0.1rem 1rem;
+  display: inline-block;
 }
 
