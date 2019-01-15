@@ -10,6 +10,6 @@ di bidang teknologi digital.
 Dibuat dengan `Jekyll` dan `Github Pages`
 
 ---
-- <span>Email</span><span>randomupload.su@gmail.com</span>
-- <span>@LINE</span><span>aafa5</span>
-- <span>Link</span><span>Bio</span>
+- <span>Email</span> <span>randomupload.su@gmail.com</span>
+- <span>@LINE</span> <span>aafa5</span>
+- <span>Link</span> <span><a href="/about/bio">Bio</a></span>
