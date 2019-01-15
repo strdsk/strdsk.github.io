@@ -16,7 +16,7 @@
   //font-weight: bold;
 }
 .custom.about ul li span:last-child { 
-  font-family: 'Noto Sans Mono';
+  font-family: 'Noto Sans Mono', Consolas;
   margin-left: 5px;
   color: $primary;
   padding: 0.1rem 1rem;
@@ -35,4 +35,12 @@
   text-transform: uppercase;
 }
 .custom.about ul li:nth-child(2) span:last-child {background: $counterprimary;}
+.custom.about ul li:nth-child(3) span:last-child:hover {
+  background: $primary;
+  color: white;
+}
+.custom.about ul li:nth-child(3) span:last-child a {
+  text-decoration: none;
+  color: white;
+}
 
