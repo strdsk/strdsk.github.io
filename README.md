@@ -1,6 +1,6 @@
 # strdsk.github.io
 
-## Checklist blog
+## Checklist fitur
   - [x] Archive page
   - [x] Page system
   - [x] Dynamic navigation
