@@ -5,7 +5,7 @@
 ---
 ---
 ```
-  Nama                 : Aiman F.
+  Nama                 : Ahmad A.F
   Domisili             : Sulawesi Selatan
 
   ---
