@@ -13,7 +13,7 @@ Software Git yang digunakan adalah **Git for Windows** dengan repository sentral
 
 ## Manfaat
 Selain memahami basis Git, penulis juga mendapatkan beberapa manfaat selama mengerjakan proyek ini seperti :
-  - mengetahui bahasa **Markdown** dan bisa menggunakannya
+  - mengetahui syntax formatting **Markdown** dan bisa menggunakannya
   - melatih dalam merancang (_planning_)
   - membuat back-end website dari awal atau zero (_from scratch_)
   - _Layouting_ & _Designing_
