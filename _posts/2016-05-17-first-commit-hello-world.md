@@ -9,7 +9,7 @@ Software Git yang digunakan adalah **Git for Windows** dengan repository sentral
   - di-support oleh **Github Pages** 
   - sebagai bahan pembelajaran
   - kebebasan penuh dalam mengatur konten
-  - _gratis_, hosting di Github Pages.
+  - _gratis_, hosting di Github.
 
 ## Manfaat
 Selain memahami basis Git, penulis juga mendapatkan beberapa manfaat selama mengerjakan proyek ini seperti :
@@ -36,11 +36,12 @@ Fitur yang sudah ada maupun yang akan ditambahkan/diperbaiki dari proyek ini :
   - [ ] Post category
   - [ ] Post tag
   - [x] Minimum JS reliant
-  - [x] Bootstrap (cuma pakai gridnya...)
+  - [x] Bootstrap (grid)
   - [ ] Responsive Web Design
   - [ ] Accesibility & Style Consistency
   - [ ] Tidy code
-  - [ ] Pagination (50-50, pakai tidak...)
+  - [ ] Pagination system
+  - [ ] Disqus comment
 
 
 
