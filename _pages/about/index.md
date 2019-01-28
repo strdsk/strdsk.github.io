@@ -12,4 +12,4 @@ Dibuat dengan `Jekyll` dan `Github Pages`
 ---
 - <span>Email</span> <span>randomupload.su@gmail.com</span>
 - <span>@LINE</span> <span>aafa5</span>
-- <span>Link</span> <span>[Bio](bio)</span>
+- <span>Link</span> <span>Bio</span>
