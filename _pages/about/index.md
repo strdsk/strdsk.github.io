@@ -7,7 +7,7 @@ Hanya sebuah blog statis yang simpel,<br>
 berisi tulisan yang berasal dari pengalaman penulis,<br>
 di bidang teknologi digital.
 
-Dibuat dengan `Jekyll` dan `Github Pages`
+Dibuat dengan `Jekyll`, di-deploy dengan `Github Pages`
 
 ---
 - <span>Email</span> <span>randomupload.su@gmail.com</span>
