@@ -18,9 +18,11 @@
   > Typescript
   > Javascript
   > PHP
+  > Node.js
+  > Vue.js & Nuxt.js
 
   Bahasa Program yang sedang/akan dipelajari :
-  > Framework JS (Vue.js/React/Electron/Node.js)
+  > Dekstop JS Apps
   > Framework PHP
   > .NET
   > Ruby
