@@ -13,11 +13,15 @@ function randomPost(object){
 }
 
 var clock = $('.clock');
+function setTime() {
+  let time = new Date();
+  time = time.getHours() + ":" + time.getMinutes();
+  clock.text(time);
+}
 
+setTime()
 setInterval(
   function(){ 
-    let time = new Date();
-    time = time.getHours() + ":" + time.getMinutes();
-    clock.text(time);
+    setTime()
   }
 , 1000);
